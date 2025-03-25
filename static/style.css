@@ -1,0 +1,300 @@
+body {
+  background-color: #FAF3E0;
+  /* Light pastel cream */
+  color: #6B4226;
+  /* Soft brown for text */
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.navbar {
+  background-color: #A8E6CF !important;
+  /* Pastel pink */
+}
+
+.navbar-toggler-icon {
+  border: #FAF3E0;
+  color: #FAF3E0;
+  ;
+
+}
+
+.btn-outline-success {
+  border-color: #A8E6CF;
+  /* Soft pastel green */
+  color: #6B4226;
+}
+
+.btn-outline-success:hover {
+  background-color: #A8E6CF;
+
+}
+
+.form-control {
+  background-color: #FFEBE7;
+  /* Light pastel pink */
+  border: 1px solid #FFD1DC;
+  font-weight: bold;
+  color: #6B4226;
+}
+
+h1 {
+  color: #FFB6C1;
+  /* Soft pastel pink */
+  font-weight: bold;
+
+}
+
+.navbar-brand {
+  color: #FAF3E0;
+  font-weight: bold;
+}
+
+
+
+.btn-danger {
+  background-color: #A7C7E7;
+  /* Pastel blue */
+  font-weight: bold;
+  border-color: #A7C7E7;
+  /* Match border color */
+
+  width: 100%;
+  display: block;
+  text-align: center;
+
+}
+
+.btn-danger:hover {
+  background-color: #8AA8D6;
+  /* Slightly darker pastel blue */
+}
+
+.result-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  width: 100%;
+}
+.toggle-buttons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  width: 100%;
+}
+
+
+
+.symptoms-container {
+    border: 2px solid #FFD1DC; /* Soft pastel pink border */
+    background-color: #FFEBE7; /* Light pastel pink background */
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+  }
+
+
+.toggle-button-1 {
+  background-color: #AEC6CF;
+  /* Pastel blue-gray */
+  border: none;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 150px;
+  text-align: center;
+  margin: 10px;
+}
+
+.toggle-button-1:hover {
+  background-color: #A3B8B9;
+  /* Darker pastel blue-gray */
+}
+
+.toggle-button-2 {
+  background-color: #F3CFC6;
+  /* Soft pastel coral */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 150px;
+  text-align: center;
+  margin: 10px;
+}
+
+.toggle-button-2:hover {
+  background-color: #E6B3A1;
+  /* Darker soft pastel coral */
+}
+
+.toggle-button-3 {
+  background-color: #E6E6FA;
+  /* Light pastel lavender */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 150px;
+  text-align: center;
+  margin: 10px;
+}
+
+.toggle-button-3:hover {
+  background-color: #D1D1E6;
+  /* Darker light pastel lavender */
+}
+
+.toggle-button-4 {
+  background-color: #C1E1C1;
+  /* Gentle pastel green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 150px;
+  text-align: center;
+  margin: 10px;
+}
+
+.toggle-button-4:hover {
+  background-color: #A8D8A8;
+  /* Darker gentle pastel green */
+}
+
+.toggle-button-5 {
+  background-color: #FADADD;
+  /* Soft pastel rose */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 150px;
+  text-align: center;
+  margin: 10px;
+}
+
+.toggle-button-5:hover {
+  background-color: #F2B2B6;
+  /* Darker soft pastel rose */
+}
+
+.toggle-button-6 {
+  background-color: rgb(251, 227, 137);
+  /* Soft pastel rose */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 150px;
+  text-align: center;
+  margin: 10px;
+}
+
+.toggle-button-6:hover {
+  background-color: rgb(248, 212, 85);
+  /* Darker soft pastel rose */
+}
+
+/* General Modal Styles */
+.modal-custom {
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Modal Content Styling */
+.modal-content {
+  background-color: #FAF3E0;
+  /* Light pastel cream */
+  border: 2px solid #FFD1DC;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+/* Header Styling */
+.modal-header {
+  background-color: #A8E6CF;
+  /* Soft pastel green */
+  color: #6B4226;
+  font-weight: bold;
+  border-bottom: 2px solid #FFD1DC;
+}
+
+.modal-title{
+  font-weight: bold;
+}
+
+/* Modal Body Styling */
+.modal-body {
+  color: #6B4226;
+  background-color: #FADADD;
+  font-size: large;
+}
+
+/* Modal Footer Styling */
+.modal-footer {
+  background-color: #FFEBE7;
+  /* Light pastel pink */
+  border-top: 2px solid #FFD1DC;
+  border-radius: 10px;
+}
+
+/* Close Button */
+.modal-header .close {
+  color: #6B4226;
+  font-size: 1.5rem;
+}
+
+/* Different Modal Variations */
+.modal-info .modal-content {
+  background-color: #C1E1C1;
+  /* Gentle pastel green */
+}
+
+.modal-warning .modal-content {
+  background-color: #F3CFC6;
+  /* Soft pastel coral */
+}
+
+.modal-danger .modal-content {
+  background-color: #FADADD;
+  /* Soft pastel rose */
+}
+
+.modal-primary .modal-content {
+  background-color: #AEC6CF;
+  /* Pastel blue-gray */
+}
+
+.modal-lavender .modal-content {
+  background-color: #E6E6FA;
+  /* Light pastel lavender */
+}
+
+.myimg {
+  border-radius: 70%;
+  padding: auto;
+}
+
+/* New CSS rules for symptoms container and predict button */
+
+
